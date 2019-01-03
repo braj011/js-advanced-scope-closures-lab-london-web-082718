@@ -19,14 +19,3 @@ function produceTipCalculator(tipDecimal) {
   }
 }
 
-function createDriver() {
-  let driverId = 0
-  return class { 
-    constructor(name) {  
-      // class is the function here?         
-      this.name = name
-      this.id = ++driverId
-    }
-  }
-  // no extra functionality needed here 
-}
