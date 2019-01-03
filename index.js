@@ -19,4 +19,7 @@ function produceTipCalculator(tipDecimal) {
   }
 }
 
-function createDriver
+function createDriver() {
+  let driverId = 0
+  
+}
